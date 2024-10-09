@@ -7,7 +7,10 @@ const Accounts = () => {
     <View style={styles.container}>
       <View style={styles.title}>
         <Text style={{ color: "white", fontSize: 18 }}>Accounts List</Text>
-        <Icon name="notifications-outline" color={"#cccccc"} size={24}></Icon>
+        <View>
+          <Icon name="notifications-outline" color={"#cccccc"} size={24}></Icon>
+          <Icon name="notifications-outline" color={"#cccccc"} size={24}></Icon>
+        </View>
       </View>
 
       <View style={styles.accountslist}>
